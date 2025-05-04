@@ -22,7 +22,7 @@ display: flex;
 justify-content: space-between;
 align-items: center;
 background-color: yellowgreen;
-padding: 3rem 1rem;
+padding: 3rem 0.5rem;
 }
 
 .onlywide:hover, .title:hover, .dx:hover{
@@ -30,6 +30,27 @@ padding: 3rem 1rem;
   color: rgb(82, 80, 80);
   transition: 0.3s;
 }
+
+.boxp{
+height: 80vh;
+background-color: rgb(41, 161, 192);
+}
+
+.testo{
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.testo h1{
+  font-size: 5rem;
+}
+
+
+
 
 @media only screen and (min-width: 768px){
 
