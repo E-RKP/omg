@@ -25,3 +25,59 @@ for (i=0; i < newArr.length; i++){
 console.log(massimo)
 
 
+let newArrr = ["HTML", "CSS", "JS", "React", "Redux", "Node", "Express", "MongoDB"]
+let second =[]
+
+for (i=0; i < newArrr.length; i++){
+  second.push(newArrr[i])
+    for (j=0; j < second.length; j++){
+      let massimox = second[0].length
+      if (second[j].length > massimo){
+        massimox = second[j]
+        console.log(massimox)
+      }
+    }
+}
+
+console.log(second)
+
+
+const countries = [
+  'Albania',
+  'Bolivia',
+  'Canada',
+  'Denmark',
+  'Ethiopia',
+  'Finland',
+  'Germany',
+  'Hungary',
+  'Ireland',
+  'Japan',
+  'Kenya'
+]
+
+const webTechs = [
+  'HTML',
+  'CSS',
+  'JavaScript',
+  'React',
+  'Redux',
+  'Node',
+  'MongoDB'
+]
+
+const mernStack = ['MongoDB', 'Express', 'React', 'Node']
+
+
+let arrayTot = []
+for (i=0; i<countries.length; i++){
+
+  arrayTot.push(countries[i], (countries[i].slice(0,3)).toUpperCase(), countries[i].length)
+}
+
+console.log(arrayTot)
+
+
+
+
+
