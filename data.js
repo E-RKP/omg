@@ -78,6 +78,25 @@ for (i=0; i<countries.length; i++){
 console.log(arrayTot)
 
 
+const fruit = ['banana', 'orange', 'mango', 'lemon']
+const fruiti = []
+for (i=0; i < fruit.length; i++){
+
+  fruiti[fruit.length- 1 - i] = fruit[i]
+
+}
+console.log(fruiti)
+
+
+let land = []
+const subber = 'land'
+for (i=0; i<countries.length;i++){
+ if (countries[i].includes(subber)){
+  land.push(countries[i])
+ }
+}
+
+console.log(land)
 
 
 
